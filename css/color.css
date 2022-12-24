@@ -1,0 +1,222 @@
+/* CSS dari e-Flyer */
+/* dibuat utk memenui */
+/* kebutuhan e-Flyer */
+
+/* warna bacground */
+
+.bg-putih {
+  background-color: white;
+}
+.bg-hitam {
+  background-color: black;
+}
+.bg-abu-tua {
+  background-color: #616161;
+}
+.bg-abu {
+  background-color: #868585;
+}
+.bg-abu-muda {
+  background-color: #D5D5D5;
+}
+.bg-coklat-tua {
+  background-color: #65320F;
+}
+.bg-coklat {
+  background-color: #803603;
+}
+.bg-coklat-muda {
+  background-color: #F9D993;
+}
+
+.bg-merah-tua {
+  background-color: #A70202;
+}
+.bg-merah {
+  background-color: #EE0505;
+}
+.bg-merah-muda {
+  background-color: #FEA2A2;
+}
+
+.bg-ungu-tua {
+  background-color: #540879;
+}
+.bg-ungu {
+  background-color: #8000FF;
+}
+.bg-ungu-muda {
+  background-color: #E4B2FC;
+}
+
+.bg-biru-tua {
+  background-color: #000080;
+}
+.bg-biru {
+  background-color: #0000FF;
+}
+.bg-biru-muda {
+  background-color: #B4C9F9;
+}
+
+.bg-hijau-tua {
+  background-color: #059105;
+}
+.bg-hijau {
+  background-color: #04E604;
+}
+.bg-hijau-muda {
+  background-color: #A7FFA7;
+}
+
+.bg-kuning-tua {
+  background-color: #FFBF01;
+}
+.bg-kuning {
+  background-color: #FFE600;
+}
+.bg-kuning-muda {
+  background-color: #FBFA9C;
+}
+
+/* lokasi huruf */
+.txt-kanan {
+  text-align: right;
+}
+.txt-tengah {
+  text-align: center;
+}
+.txt-kiri {
+  text-align: left;
+}
+
+/* warna huruf */
+.txt-putih {
+  color: white;
+}
+.txt-hitam {
+  color: black;
+}
+
+.txt-coklat-tua {
+  color: #65320F;
+}
+.txt-coklat {
+  color: #803603;
+}
+.txt-coklat-muda {
+  color: #ECBD57;
+}
+
+.txt-merah-tua {
+  color: #A70202;
+}
+.txt-merah {
+  color: #EE0505;
+}
+.txt-merah-muda {
+  color: #FE6D6D;
+}
+
+.txt-ungu-tua {
+  color: #540879;
+}
+.txt-ungu {
+  color: #8000FF;
+}
+.txt-ungu-muda {
+  color: #CE6DFE;
+}
+
+.txt-biru-tua {
+  color: #000080;
+}
+.txt-biru {
+  color: #0000FF;
+}
+.txt-biru-muda {
+  color: #80A6FF;
+}
+
+.txt-hijau-tua {
+  color: #059105;
+}
+.txt-hijau {
+  color: #04E604;
+}
+.txt-hijau-muda {
+  color: #69FE69;
+}
+
+.txt-kuning-tua {
+  color: #FFBF01;
+}
+.txt-kuning {
+  color: #FFE600;
+}
+.txt-kuning-muda {
+  color: #FFFE66;
+}
+
+/* bayangan text */
+.txt-shadow {
+  text-shadow: 2px 2px 1px black;
+}
+/* text vertikal */
+.txt-v-5 {
+   padding-top: 50px;
+ }
+.txt-v-10 {
+   padding-top: 100px;
+ }
+.txt-v-15 {
+   padding-top: 150px;
+ }
+.txt-v-20 {
+   padding-top: 200px;
+ }
+.txt-v-25 {
+   padding-top: 250px;
+ }
+/* jumbotron versi 4 */
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 4rem 2rem;
+  }
+}
+
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0;
+}
+
+/* opacity */
+.opac-0 { opacity: 1; !important }
+.opac-9 { opacity: .9; }
+.opac-8 { opacity: .8; }
+.opac-7 { opacity: .7; }
+.opac-6 { opacity: .6; }
+.opac-5 { opacity: .5; }
+.opac-4 { opacity: .4; }
+.opac-3 { opacity: .3; }
+.opac-2 { opacity: .2; }
+.opac-1 { opacity: .1; }
+
+/* font size */
+.fs1 {font-size: 6em; line-height: 95%;}
+.fs2 {font-size: 5.5em; line-height: 95%;}
+.fs3 {font-size: 5em; line-height: 95%;}
+.fs4 {font-size: 4.5em; line-height: 95%;}
+.fs5 {font-size: 4em; line-height: 95%;}
+.fs6 {font-size: 3.5em; line-height: 95%;}
+.fs7 {font-size: 3em; line-height: 100%;}
+.fs8 {font-size: 2.5em; line-height: 100%;}
+.fs9 {font-size: 2em; line-height: 120%;}
